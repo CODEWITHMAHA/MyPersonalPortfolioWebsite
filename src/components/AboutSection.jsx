@@ -21,13 +21,6 @@ const AboutSection = () => {
               and modern web practices, I bring designs to life with clean code
               and pixel-perfect precision.
             </p>
-            {/* <p className=" text-muted-foreground">
-              From replicating complex UIs like a Netflix clone to designing
-              interactive tools like a dynamic color generator, I thrive on
-              challenges that push my skills further. For me, every project is
-              more than just development — it’s about creating something that
-              feels right, works fast, and leaves an impression.
-            </p> */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 Get In Touch
