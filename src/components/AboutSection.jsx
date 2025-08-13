@@ -1,4 +1,4 @@
-import { Brain, Briefcase, Code, Lightbulb, User } from "lucide-react";
+import { Brain, Code, Lightbulb } from "lucide-react";
 
 const AboutSection = () => {
   return (
