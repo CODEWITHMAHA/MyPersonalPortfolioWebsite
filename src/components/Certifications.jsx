@@ -13,6 +13,15 @@ const Certificates = [
   },
   {
     id: 2,
+    title: "HTML, CSS & JavaScript Internship – Internee.pk",
+    image: "/ProjectsImgs/internshipcertificate.png",
+    description:
+      "Completed a 2-month virtual internship at Internee.pk, gaining hands-on experience in building responsive interfaces, optimizing web performance, and implementing interactive features using HTML, CSS, and JavaScript.",
+    demoUrl:
+      "https://www.linkedin.com/posts/mahrukh-khan-195668236_internship-webdevelopment-learningexperience-activity-7250054611028303876-Xsk8?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrUhQEBKmV0c7jUaVaKD6Jcj16Ph8fEgKc",
+  },
+  {
+    id: 3,
     title: "Start Writing Prompts like a Pro",
     description:
       "Certified by Google (via Coursera) in ‘Start Writing Prompts like a Pro’ — mastered the art of crafting impactful, AI-ready prompts with 100% score, blending creativity with precision to drive powerful results.",
@@ -21,7 +30,7 @@ const Certificates = [
       "https://www.coursera.org/account/accomplishments/verify/6LVCB8KVKH8O",
   },
   {
-    id: 3,
+    id: 4,
     title: "Front End Development - CSS",
     image: "/ProjectsImgs/frontend.png",
     description:
@@ -42,7 +51,7 @@ const Certifications = () => {
           algorithms to designing stunning interfaces, every badge tells a story
           of innovation and expertise
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {Certificates.map((Certificate) => (
             <div
               key={Certificate.id}
